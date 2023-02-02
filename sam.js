@@ -14,6 +14,9 @@ function additem(e)
     .catch((err)=>{
         console.log(err)
     })
+
+   
+
     //  localStorage.setItem(obj.amount1,JSON.stringify(obj))
     printelement(obj)
 }
